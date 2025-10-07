@@ -11,7 +11,7 @@ interface SidebarProps {
 const Sidebar = ({ userType, className }: SidebarProps) => {
   const studentItems = [
     { icon: Map, label: 'Map', href: '/dashboard' },
-    { icon: FileText, label: 'My Reports', href: '/dashboard/reports' },
+    { icon: FileText, label: 'Report Issue', href: '/dashboard/report' },
     { icon: User, label: 'Profile', href: '/dashboard/profile' },
     { icon: Users, label: 'Leaderboard', href: '/dashboard/leaderboard' },
   ];
