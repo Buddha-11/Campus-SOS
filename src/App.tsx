@@ -12,6 +12,9 @@ import NotFound from "./pages/NotFound";
 import ReportIssue from "./pages/ReportIssue";
 import Profile from "./pages/Profile";
 import Leaderboard from "./pages/Leaderboard";
+import Heatmap from "./pages/admin/Heatmap";
+import Categories from "./pages/admin/Categories";
+import AllIssues from "./pages/admin/AllIssues";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +32,9 @@ const App = () => (
             <Route path="/dashboard/profile" element={<Profile />} />
             <Route path="/dashboard/leaderboard" element={<Leaderboard />} />
             <Route path="/admin" element={<AdminDashboard />} />
+            <Route path="/admin/heatmap" element={<Heatmap />} />
+            <Route path="/admin/categories" element={<Categories />} />
+            <Route path="/admin/issues" element={<AllIssues />} />
             <Route path="/auth/login" element={<Login />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
