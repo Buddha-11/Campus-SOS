@@ -28,9 +28,9 @@ const Sidebar = ({ userType, className }: SidebarProps) => {
   return (
     <div className={cn("w-64 bg-card border-r border-border flex flex-col", className)}>
       <div className="p-6 border-b border-border">
-        <h2 className="text-xl font-bold text-primary">
-          {userType === 'student' ? 'Campus Navigator' : 'Admin Portal'}
-        </h2>
+        <a href="/" className="text-xl font-bold text-primary hover:underline">
+          Campus SOS
+        </a>
       </div>
       
       <nav className="flex-1 p-4 space-y-2">

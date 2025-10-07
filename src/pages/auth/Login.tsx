@@ -38,7 +38,7 @@ const Login = () => {
               <div className="text-3xl mb-2">🏫</div>
               <h1 className="text-2xl font-bold text-foreground">Welcome Back</h1>
               <p className="text-muted-foreground">
-                Sign in to Campus Problem Mapper
+                Sign in to Campus SOS
               </p>
             </div>
 

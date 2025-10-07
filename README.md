@@ -6,7 +6,7 @@
 
 ## 🎯 Overview
 
-**Campus Problem Mapper** is a web platform designed to **bridge the communication gap** between students and the campus administration.  
+**Campus SOS** is a web platform designed to **bridge the communication gap** between students and the campus administration.  
 Instead of letting issues go unnoticed — broken lights, dirty washrooms, poor WiFi, or unsafe areas — this system brings them to light through a **crowdsourced, map-based reporting tool**.
 
 Students can **drop pins**, describe issues, and even **upvote** problems others face.  

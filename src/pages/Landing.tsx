@@ -38,7 +38,7 @@ const Landing = () => {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="text-2xl">🏫</div>
-            <span className="text-xl font-bold text-primary">Campus Problem Mapper</span>
+            <span className="text-xl font-bold text-primary">Campus SOS</span>
           </div>
           <Button
             variant="outline"
@@ -57,10 +57,10 @@ const Landing = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                  <span className="text-foreground">Campus Problem</span>
+                  <span className="text-foreground">Campus</span>
                   <br />
                   <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                    Mapper
+                    SOS
                   </span>
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-lg">
@@ -154,7 +154,7 @@ const Landing = () => {
       {/* Footer */}
       <footer className="border-t border-border py-8">
         <div className="container text-center text-muted-foreground">
-          <p>&copy; 2024 Campus Problem Mapper. Made with ❤️ for better campuses.</p>
+          <p>&copy; 2024 Campus SOS. Made with ❤️ for better campuses.</p>
         </div>
       </footer>
     </div>
